@@ -1,0 +1,47 @@
+
+.main{
+  width: 100%;
+}
+.write, .black {
+  border: solid black;
+  height: 150px;
+  width: 150px;
+  float: left;
+  font-size: 80px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  display: flex;
+  align-items: center;
+}
+
+.black {
+  background-color: black;
+  color: white; 
+  font-size: 120px;
+}
+
+
+@media (max-width: 600px) {
+  .write, .black {
+    height: 50%;
+    width: 50%;
+    font-size: 30px; /* Adjust font size */
+  }
+  .main{
+    width: 100%;
+  }
+}
+
+/* Media query for very small screens (e.g., phones) */
+@media (max-width: 400px) {
+  .write, .black {
+    height:40%;
+    width: 40%;
+    font-size: 20px;
+  }
+  .main{
+    width: 100%;
+  }
+}
